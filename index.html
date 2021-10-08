@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+
+		
+
+		<link rel="modulepreload" href="/sveltekit-worker-incorrect-base/_app/start-f582d72e.js">
+		<link rel="modulepreload" href="/sveltekit-worker-incorrect-base/_app/chunks/vendor-9d7a6940.js">
+		<link rel="modulepreload" href="/sveltekit-worker-incorrect-base/_app/chunks/paths-28a87002.js">
+		<link rel="modulepreload" href="/sveltekit-worker-incorrect-base/_app/layout.svelte-e4b397f3.js">
+		<link rel="modulepreload" href="/sveltekit-worker-incorrect-base/_app/pages/index.svelte-d5a93dd4.js">
+		<link rel="stylesheet" href="/sveltekit-worker-incorrect-base/_app/assets/start-61d1577b.css">
+
+		<script type="module">
+			import { start } from "/sveltekit-worker-incorrect-base/_app/start-f582d72e.js";
+			start({
+				target: document.querySelector("#svelte"),
+				paths: {"base":"/sveltekit-worker-incorrect-base","assets":""},
+				session: {},
+				host: location.host,
+				route: true,
+				spa: false,
+				trailing_slash: "never",
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/sveltekit-worker-incorrect-base/_app/layout.svelte-e4b397f3.js"),
+						import("/sveltekit-worker-incorrect-base/_app/pages/index.svelte-d5a93dd4.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<h1>Welcome to SvelteKit</h1>
+<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation
+</p>
+
+<p>main thread: &quot;/sveltekit-worker-incorrect-base&quot;</p>
+
+<p>worker thread:
+  </p>
+
+
+
+			
+		</div>
+	</body>
+</html>
